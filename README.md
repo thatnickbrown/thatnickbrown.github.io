@@ -3,7 +3,7 @@
 ## security pentesting tools
 ### PKI on the Fly
 Building your own PKI and issuing server, client, and email certificates is often useful during security testing, but the openssl command line interface is not streamlined for this purpose. I wrote PKI on the Fly to make it easy to create and manage a PKI for penetration testing.
-
+```
 Example use:
   Create a root CA named MyCa:
    /pkifly.py ca MyCa
@@ -13,7 +13,7 @@ Example use:
    ./pkifly.py client MyCa --clientname bobsmith
   Create an S/MIME email cert and key signed by MyCA
    ./pkifly.py email MyCa --email bobsmith@target.su
-
+```
 See the github repo: [PKI on the Fly](https://github.com/thatnickbrown/pkifly)
 
 ### HTTP Header Mirror
