@@ -1,0 +1,6 @@
+remote_theme: pages-themes/hacker@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+
+title: [nick brown on github]
+description: [if you wish to make a github site from scratch you must first init a repo - carl sagan]
