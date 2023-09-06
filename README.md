@@ -35,10 +35,6 @@ Connect to http://127.11.22.33:1666 to see headers. CTRL-C to quit.
 *weak GPUs need not apply*
 ## TenXLlama
 Who needs a 10x programmer when you have a TenXLlama? Just tell the Llama what you want your program to do in plain English and it will spit out fully-functional code, ready to run.
-### Requirements
-- conda/miniconda CUDA environment with [Code Llama](https://github.com/facebookresearch/codellama) installed
-- either an RTX 4090 or a lot of patience
-
 ### Example
 Ask it to write a server, then run it:
 ```
@@ -73,7 +69,6 @@ When studying AI in college this kind of thing would have seemed like sci-fi. It
 
 ## Llama Seance
 Summon famous people to chat with using the Llama 2 LLM. Ever wanted to ask Shakespeare to write your cat a sonnet? Or discuss shipbuilding with Noah? Now you can.
-
 ### Example
 ```
 torchrun seance.py
