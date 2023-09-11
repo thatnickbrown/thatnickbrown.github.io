@@ -40,7 +40,7 @@ creating email server controller
 starting email server controller
 sarlacc-smtp is listening on port 10025
 ```
-💾 See my github repo: [sarlacc-smtp](https://github.com/thatnickbrown/sarlac-smtp)
+💾 See my github repo: [sarlacc-smtp](https://github.com/thatnickbrown/sarlacc-smtp)
 
 # 🦙Large Language Model hijinks
 *weak GPUs need not apply*
