@@ -19,7 +19,7 @@ Building your own PKI and issuing server, client, and email certificates is ofte
 Request routers, reverse proxies, load balancers, authentication services, and various other HTTP doodads that sit between clients and backend servers can add or modify headers. HTTP Header Mirror is a web server that prints every header it receives to the page body, simplifying the process of testing for header injection vulnerabilities. HTTP Header Mirror has been helpful in discovering numerous vulnerabilities, including an issue with a CVSS 3.1 Base Score of 10 in a widely used product.
 
 ### Usage
-```
+```bash
 ./mirror.py -a 127.11.22.33 -p 1666
 Connect to http://127.11.22.33:1666 to see headers. CTRL-C to quit.
 ```
@@ -30,6 +30,17 @@ Connect to http://127.11.22.33:1666 to see headers. CTRL-C to quit.
 
 💾 See my github repo: [HTTP Header Mirror](https://github.com/thatnickbrown/mirror)
 
+## sarlacc-smtp Email Honeypot
+An SMTP honeypot that writes everything it receives to disk.
+
+### Usage
+```bash
+$ ./sarlacc-smtp.py
+creating email server controller
+starting email server controller
+sarlacc-smtp is listening on port 10025
+```
+💾 See my github repo: [sarlacc-smtp](https://github.com/thatnickbrown/sarlac-smtp)
 
 # 🦙Large Language Model hijinks
 *weak GPUs need not apply*
