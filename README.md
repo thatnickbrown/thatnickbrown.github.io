@@ -1,11 +1,11 @@
-# 🔬 Research
+# 🔬 Cybersecurity Research
 Curiosity ```kill -9 cat```
-## LLM-generated code: unsafe at any speed?
-It's amazing that large language models can write working based on minimal descriptions. The security of that code is equally amazing. Check out my research into the subject at
+## LLM-generated code: unsafe at any clock speed?
+It's amazing that large language models can write working software based on minimal descriptions. The security of that code is equally amazing. Check out my research into the subject at the link below.
 
 💾 [LLM security research available on github](https://www.nick-brown.com/llm_security/)
 
-# 🔓pentesting tools
+# 🔓 pentesting tools
 *or just 3D-print a captain crunch whistle*
 ## PKI on the Fly
 Building your own PKI and issuing server, client, and email certificates is often useful during security testing, but the openssl command line interface is not streamlined for this purpose. I wrote PKI on the Fly to make it easy to create and manage a PKI for penetration testing.
@@ -49,10 +49,10 @@ sarlacc-smtp is listening on port 10025
 ```
 💾 See my github repo: [sarlacc-smtp](https://github.com/thatnickbrown/sarlacc-smtp)
 
-# 🦙Large Language Model hijinks
+# 🦙 Large Language Model projects
 *weak GPUs need not apply*
 ## TenXLlama
-Who needs a 10x programmer when you have a TenXLlama? Just tell the Llama what you want your program to do in plain English and it will spit out fully-functional code, ready to run.
+Who needs a 10x programmer when you have a TenXLlama? Just tell the Llama what you want your program to do in plain English and it will spit out fully functional code, ready to run.
 ### Example
 Ask it to write a server, then run it:
 ```
