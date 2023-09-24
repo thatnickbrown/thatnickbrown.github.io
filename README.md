@@ -3,7 +3,7 @@ Curiosity ```kill -9 cat```
 ## LLM-generated code: unsafe at any speed?
 It's amazing that large language models can write working based on minimal descriptions. The security of that code is equally amazing. Check out my research into the subject at
 
-💾 [LLM security research available on github](https://github.com/thatnickbrown/llm_security)
+💾 [LLM security research available on github](https://www.nick-brown.com/llm_security/)
 
 # 🔓pentesting tools
 *or just 3D-print a captain crunch whistle*
